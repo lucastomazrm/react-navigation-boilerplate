@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import Navigation from "./routes";
+import Navigation from "./src/routes";
 
 const App = () => {
   return (

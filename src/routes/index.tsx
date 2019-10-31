@@ -4,10 +4,12 @@ import {
     createSwitchNavigator,
 } from "react-navigation";
 import Home from "../views/Home";
+import { createStackNavigator } from "react-navigation-stack";
 
 export default () => {
+
     const switchNavigator = createSwitchNavigator({
-        Main: Home,
+        Main: Home
     });
 
     const Container = createAppContainer(switchNavigator);
